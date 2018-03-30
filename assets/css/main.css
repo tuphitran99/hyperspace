@@ -1640,7 +1640,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Quicksand', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -2299,8 +2299,21 @@
 				float: left;
 				padding: 0 0 0 0.75em;
 			}
+			form .field.short {
+				width: 30%;
+				float: left;
+				padding: 0 0 0 0.75em;
+			}
+			form .field.long {
+				width: 55%;
+				float: left;
+				padding: 0 0 0 0.75em;
+			}
 
 				form .field.half.first {
+					padding: 0 0.75em 0 0;
+				}
+				form .field.short.first {
 					padding: 0 0.75em 0 0;
 				}
 
@@ -2315,8 +2328,21 @@
 				float: none;
 				padding: 0;
 			}
+			form .field.short {
+				width: 100%;
+				float: none;
+				padding: 0;
+			}
+			form .field.long {
+				width: 100%;
+				float: none;
+				padding: 0;
+			}
 
 				form .field.half.first {
+					padding: 0;
+				}
+				form .field.short.first {
 					padding: 0;
 				}
 
