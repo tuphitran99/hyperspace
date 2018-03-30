@@ -2289,7 +2289,11 @@
 	form {
 		margin: 0 0 2em 0;
 	}
-
+		form #subForm{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
 		form .field {
 			margin: 0 0 1em 0;
 		}
@@ -2300,12 +2304,12 @@
 				padding: 0 0 0 0.75em;
 			}
 			form .field.short {
-				width: 30%;
+				width: 20%;
 				float: left;
 				padding: 0 0 0 0.75em;
 			}
 			form .field.long {
-				width: 55%;
+				width: 30%;
 				float: left;
 				padding: 0 0 0 0.75em;
 			}
