@@ -3913,7 +3913,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/sunblast.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3946,3 +3946,9 @@
 			}
 
 		}
+
+/* Form */
+
+	#form{
+		background-image: url("images/sunblast.svg");
+	}
